@@ -1,0 +1,73 @@
+body {
+    background-color: #f5d9df;
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .navbar-brand {
+    color: #ea1c2c;  /* We set font-size and font-weight here just incase we have two nav bars*/
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+/*Don't forget to target the classes using the id. Doing this makes them reachable*/
+#mainNavbar .nav-link:hover {
+    color: #ea1c2c;
+}
+
+i {
+    transform: scale(2.5);
+    color: white;
+    padding: 1rem;
+    margin: 0.8rem 0;
+}
+
+h2 {
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 1.7rem;
+    
+}
+
+.blurb p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+#museum-name-group span {
+    color:#ea1c2c;
+}
+
+#museum-name-group h1 {
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.navbar.scrolled {
+    background: rgb(222,192,222);
+    transition: all 500ms ease-in-out;
+}
+
+
+@media (max-width: 1200px) {
+    #museum-name-group h1 {
+        font-weight: 100;
+        font-size: 2.5rem;
+    }
+}
+
